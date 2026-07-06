@@ -1,4 +1,5 @@
 {
+  "homepage": "https://geodelta-GIS.github.io/solta-ceste",
   "name": "interactive-webgis-app",
   "private": true,
   "version": "0.0.0",
@@ -7,16 +8,21 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
     "ol": "^10.7.0",
+    "proj4": "^2.20.9",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@tailwindcss/postcss": "^4.1.17",
+    "@types/jspdf": "^1.3.3",
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",

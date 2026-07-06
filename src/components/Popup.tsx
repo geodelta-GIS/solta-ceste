@@ -3,8 +3,13 @@ import React from "react";
 interface PopupProps {
   data: {
     clickedCoordinate: Array<number>;
-    parcelNumber: string;
-    area: string;
+    id: string;
+    NAZIV_CEST?:string;
+    KATEG?: string;
+    OZNAKA?:string;
+    DUZINA_KM?:number;
+ 
+
   } | null;
   onClose: () => void;
 }
@@ -31,13 +36,18 @@ const Popup: React.FC<PopupProps> = ({ data }) => {
         transform: `translate(${translateX}px, ${translateY}px)`,
       }}
     >
-      <h3 className="mb-1">Cadastral parcel</h3>
+      <h3 className="mb-1">Cesta kategorije {data.KATEG ? data.KATEG : 'nerazvrstano'}</h3>
       <p className="text-sm">
-        Number <strong>{data.parcelNumber}</strong>
+        Oznaka <strong>{data.OZNAKA}</strong>
       </p>
       <p className="text-sm">
-        Area <strong>{data.area} m²</strong>
+        Dužina <strong>{data.DUZINA_KM} km</strong>
       </p>
+      <p className="text-sm">
+        Naziv ceste <strong>{data.NAZIV_CEST} </strong>
+      </p>
+ 
+      
     </div>
   );
 };
