@@ -109,7 +109,7 @@ const selectedRoadRef = useRef<FeatureLike  | null>(null);
 
     const roadsLayer = new VectorLayer({
       source: new VectorSource({
-        url: "/geojson/solta.geojson", // public/Solta_baza_cesta.geojson
+        url: import.meta.env.BASE_URL + "geojson/solta.geojson", // public/Solta_baza_cesta.geojson
         format: new GeoJSON({
           dataProjection: "EPSG:4326",
           featureProjection: "EPSG:3765",
