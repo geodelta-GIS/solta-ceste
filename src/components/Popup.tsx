@@ -3,7 +3,7 @@ import React from "react";
 interface PopupProps {
   data: {
     clickedCoordinate: Array<number>;
-    id: string;
+    id: number;
     NAZIV_CEST?:string;
     KATEG?: string;
     OZNAKA?:string;
@@ -36,15 +36,19 @@ const Popup: React.FC<PopupProps> = ({ data }) => {
         transform: `translate(${translateX}px, ${translateY}px)`,
       }}
     >
-      <h3 className="mb-1">Cesta kategorije {data.KATEG ? data.KATEG : 'nerazvrstano'}</h3>
+      <h3 className="mb-1">ID Ceste <strong>{data.id}</strong> </h3>
+      <p className="text-sm">
+        Naziv ceste <strong>{data.NAZIV_CEST} </strong>
+      </p>
+      <p className="text-sm">
+      Kategorija <strong>{data.KATEG ? data.KATEG : 'nerazvrstano'}</strong>
+      </p>
+     
       <p className="text-sm">
         Oznaka <strong>{data.OZNAKA}</strong>
       </p>
       <p className="text-sm">
         Dužina <strong>{data.DUZINA_KM} km</strong>
-      </p>
-      <p className="text-sm">
-        Naziv ceste <strong>{data.NAZIV_CEST} </strong>
       </p>
  
       
