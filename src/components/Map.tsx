@@ -26,7 +26,7 @@ const MapComponent = () => {
   const { setMap } = useMap();
   const [popupData, setPopupData] = useState<{
     clickedCoordinate: Array<number>;
-    id: string;
+    id: number;
     NAZIV_CEST?:string;
     KATEG?: string;
     OZNAKA?:string;
