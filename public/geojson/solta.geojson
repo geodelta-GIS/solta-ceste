@@ -3044,7 +3044,7 @@
         "KATEG": "III",
         "OZNAKA": "III-020",
         "DUZINA_KM": 0.98,
-        "NAZIV_CEST": "xx"
+        "NAZIV_CEST": "III-020"
       },
       "geometry": {
         "type": "LineString",
@@ -50714,7 +50714,7 @@
         "KATEG": "II",
         "OZNAKA": "II-031",
         "DUZINA_KM": 1.47,
-        "NAZIV_CEST": "12)2"
+        "NAZIV_CEST": "II-031"
       },
       "geometry": {
         "type": "LineString",
