@@ -16403,10 +16403,10 @@
       "properties": {
         "fid": 154,
         "id": 138,
-        "KATEG": "NC",
-        "OZNAKA": "NC-066",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": LM-066",
         "DUZINA_KM": 0.61,
-        "NAZIV_CEST": "NC-066"
+        "NAZIV_CEST": LM-066"
       },
       "geometry": {
         "type": "LineString",
@@ -16563,10 +16563,10 @@
       "properties": {
         "fid": 155,
         "id": 139,
-        "KATEG": "NC",
-        "OZNAKA": "NC-067",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": "LM-067",
         "DUZINA_KM": 0.13,
-        "NAZIV_CEST": "NC-067"
+        "NAZIV_CEST": "LM-067"
       },
       "geometry": {
         "type": "LineString",
@@ -17603,10 +17603,10 @@
       "properties": {
         "fid": 174,
         "id": 158,
-        "KATEG": "NC",
-        "OZNAKA": "NC-086",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": "LM-086",
         "DUZINA_KM": 0.33,
-        "NAZIV_CEST": "NC-086"
+        "NAZIV_CEST": "LM-086"
       },
       "geometry": {
         "type": "LineString",
@@ -70873,10 +70873,10 @@
       "properties": {
         "fid": 414,
         "id": 395,
-        "KATEG": "NC",
-        "OZNAKA": "NC-171",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": "LM-171",
         "DUZINA_KM": 0.3,
-        "NAZIV_CEST": "NC-171"
+        "NAZIV_CEST": "LM-171"
       },
       "geometry": {
         "type": "LineString",
@@ -71229,10 +71229,10 @@
       "properties": {
         "fid": 418,
         "id": 399,
-        "KATEG": "NC",
-        "OZNAKA": "NC-175",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": "LM-175",
         "DUZINA_KM": 0.11,
-        "NAZIV_CEST": "NC-175"
+        "NAZIV_CEST": "LM-175"
       },
       "geometry": {
         "type": "LineString",
@@ -72573,8 +72573,8 @@
       "properties": {
         "fid": null,
         "id": 425,
-        "KATEG": "NC",
-        "OZNAKA": "NC-201",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": "LM-201",
         "DUZINA_KM": 0.29,
         "NAZIV_CEST": "Uvala Piškera"
       },
@@ -72689,10 +72689,10 @@
       "properties": {
         "fid": null,
         "id": 426,
-        "KATEG": "NC",
-        "OZNAKA": "NC-202",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": "LM-202",
         "DUZINA_KM": 0.04,
-        "NAZIV_CEST": "NC-202"
+        "NAZIV_CEST": "LM-202"
       },
       "geometry": {
         "type": "LineString",
@@ -80109,10 +80109,10 @@
       "properties": {
         "fid": null,
         "id": 536,
-        "KATEG": "NC",
-        "OZNAKA": "NC-310",
+        "KATEG": "Lunogo mar",
+        "OZNAKA": "LM-310",
         "DUZINA_KM": 0.03,
-        "NAZIV_CEST": "NC-310"
+        "NAZIV_CEST": "LM-310"
       },
       "geometry": {
         "type": "LineString",
